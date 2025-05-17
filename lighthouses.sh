@@ -42,7 +42,7 @@ Issuing_certificates_for_lighthouses() {
 
 # 创建灯塔配置文件
 create_lh_config() {
-  cat <<EOF >/etc/nebula/node/$node_name/$node_name.yml
+  cat <<EOF >/etc/systemd/system/$node_name.yml
 pki:
   ca: /etc/nebula/ca.crt
   cert: /etc/nebula/node/$node_name/$node_name.crt

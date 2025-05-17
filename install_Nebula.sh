@@ -24,7 +24,7 @@ install_nebula() {
 
 # 创建服务文件
 create_nebula_service_file() {
-    cat <<EOF >/usr/lib/systemd/system/nebula.service
+    cat <<EOF >/etc/systemd/system/nebula.service
 [Unit]
 Description=Nebula Network
 Wants=basic.target
