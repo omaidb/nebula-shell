@@ -1,0 +1,53 @@
+2025-05-22 13:01:40,393 DEBUG - Starting WinSW in console mode
+2025-05-22 13:01:40,432 INFO  - Installing service 'edge_server (edge)'...
+2025-05-22 13:01:40,487 INFO  - Service 'edge_server (edge)' was installed successfully.
+2025-05-22 13:03:29,727 DEBUG - Starting WinSW in service mode
+2025-05-22 13:03:29,925 INFO  - Starting "C:\opt\n2n\edge\edge.exe"  C:\opt\n2n\etc\edge.conf -v 
+2025-05-22 13:03:29,966 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process '"C:\opt\n2n\edge\edge.exe"' with working directory 'D:\opt\n2n\edge'. 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2025-05-22 13:03:36,144 DEBUG - Starting WinSW in service mode
+2025-05-22 13:03:36,328 INFO  - Starting "C:\opt\n2n\edge\edge.exe"  C:\opt\n2n\etc\edge.conf -v 
+2025-05-22 13:03:36,369 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process '"C:\opt\n2n\edge\edge.exe"' with working directory 'D:\opt\n2n\edge'. 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2025-05-22 13:03:54,724 DEBUG - Starting WinSW in service mode
+2025-05-22 13:03:54,917 INFO  - Starting "C:\opt\n2n\edge\edge.exe"  C:\opt\n2n\etc\edge.conf -v 
+2025-05-22 13:03:54,956 ERROR - Failed to start service.
+System.ComponentModel.Win32Exception (2): An error occurred trying to start process '"C:\opt\n2n\edge\edge.exe"' with working directory 'D:\opt\n2n\edge'. 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo )
+   at System.Diagnostics.Process.StartCore(ProcessStartInfo )
+   at System.Diagnostics.Process.Start()
+   at WinSW.Util.ProcessHelper.StartProcessAndCallbackForExit(Process processToStart, String executable, String arguments, Dictionary`2 envVars, String workingDirectory, Nullable`1 priority, ProcessCompletionCallback callback, LogHandler logHandler, Boolean hideWindow)
+   at WinSW.WrapperService.StartProcess(Process processToStart, String arguments, String executable, LogHandler logHandler)
+   at WinSW.WrapperService.DoStart()
+   at WinSW.WrapperService.OnStart(String[] args)
+2025-05-22 13:07:13,670 DEBUG - Starting WinSW in service mode
+2025-05-22 13:07:13,886 INFO  - Starting "D:\opt\n2n\edge\edge.exe"  D:\opt\n2n\etc\edge.conf -v 
+2025-05-22 13:07:13,925 INFO  - Started process 14456
+2025-05-22 13:07:13,939 DEBUG - Forwarding logs of the process System.Diagnostics.Process (edge) to WinSW.ResetLogAppender
+2025-05-22 13:07:57,626 INFO  - Stopping edge
+2025-05-22 13:07:57,626 DEBUG - ProcessKill 14456
+2025-05-22 13:07:57,630 DEBUG - Stopping process 14456...
+2025-05-22 13:08:03,255 INFO  - Finished edge
+2025-05-22 13:08:04,046 DEBUG - Starting WinSW in service mode
+2025-05-22 13:08:04,233 INFO  - Starting "D:\opt\n2n\edge\edge.exe"  D:\opt\n2n\etc\edge.conf -v 
+2025-05-22 13:08:04,267 INFO  - Started process 14552
+2025-05-22 13:08:04,280 DEBUG - Forwarding logs of the process System.Diagnostics.Process (edge) to WinSW.ResetLogAppender
+2025-05-22 14:11:05,125 INFO  - Stopping edge
+2025-05-22 14:11:05,126 DEBUG - ProcessKill 14552
+2025-05-22 14:11:05,134 DEBUG - Stopping process 14552...
+2025-05-22 14:11:05,441 DEBUG - Process 14552 canceled with code 0.
+2025-05-22 14:11:05,449 INFO  - Finished edge

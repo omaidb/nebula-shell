@@ -1,0 +1,20 @@
+<service>
+    <!-- id：安装windows服务后的服务ID，必须是唯一的。 -->
+    <id>edge</id>
+    <!-- name：服务名称，也必须是唯一的。一般和id一致即可。 -->
+    <name>edge_server</name>
+    <!-- description：服务说明，可以使用中文，可做备注使用。 -->
+    <description>edge Service</description>
+    <!-- 工作目录 -->
+    <directory>D:\opt\n2n</directory>
+
+    <!-- executable：执行的命令，比如启动springboot应用的命令java。 -->
+    <executable>"D:\opt\n2n\edge\n3n-edge.exe"</executable>
+    <!-- arguments：命令执行参数，比如 包路径，类路径等。 -->
+    <arguments> D:\opt\n2n\etc\edge.conf -v </arguments>
+    <!-- 日志模式  reset|roll -->
+    <log mode="reset"></log>
+    <!-- 优先级 -->
+    <priority>high</priority>
+
+</service>
